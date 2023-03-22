@@ -1,0 +1,122 @@
+body{
+    box-sizing: border-box;
+    width: 100%;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 149px 500px 300px 300px 100px ;
+    margin: 0;
+
+}
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.inside{
+    background-color: #F6F1F1;
+    width: 600px;
+    height: 100px;
+}
+.container-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hdabaadyathom{
+    display: flex;
+    gap: 20px;
+}
+.container-2{
+display: flex;
+flex-direction: column;
+
+}
+.batiments{
+    display: flex;
+    gap: 10px;
+}
+.batiment1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+
+}
+button{
+    background-color: #413543;
+  width: 150px;
+  color: white;
+}
+.kbira{
+    color:#FC2947;
+    font-size: 20px;
+    font-weight: bold;
+}
+.banque{
+    justify-self: center;
+    align-self: center;
+}
+.batiment2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+
+}
+.patri{
+    justify-self: center;
+    align-self: center;
+}
+.batiment3{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+
+}
+.client{
+    justify-self: center;
+    align-self: center;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.before-footer{
+    background-color: gray;
+    display: flex;
+    gap: 20px;
+}
+
+.lorem{
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid white;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 100%;
+    position: relative;
+  }
+  
+  .wideimage {
+    width: 100%;
+   
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .inside {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    right: 50%;
+    bottom: 0;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
